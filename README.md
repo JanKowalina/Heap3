@@ -29,26 +29,6 @@ A sequence of instructions in the format presented above. The last instruction i
 
 The results of instructions '-' and 'p'.
 
-
-## Compilation and Execution
-
-To compile the program, follow these steps:
-
-1. Use a C++ compiler (such as g++) to compile the code:
-
-   ```shell
-   g++ -o Heap3 Heap3.cpp
-   ```
-
-2. Run the program using the following command:
-
-   ```shell
-   ./Heap3
-   ```
-
-   The program will start running and wait for user input.
-
-
 ## Example
 
 Input:
@@ -129,6 +109,26 @@ Output:
 7
 8
 ```
+
+## Compilation and Execution
+
+To compile the program, follow these steps:
+
+1. Use a C++ compiler (such as g++) to compile the code:
+
+   ```shell
+   g++ -o Heap3 Heap3.cpp
+   ```
+
+2. Run the program using the following command:
+
+   ```shell
+   ./Heap3
+   ```
+
+   The program will start running and wait for user input.
+
+
 
 **Note:** The output represents the elements of the heap after each operation. The 'p' operation outputs all the elements in the order they are stored in the heap. The '-' operation outputs the removed element (maximum from the max heap or minimum from the min heap).
 
